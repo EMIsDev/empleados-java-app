@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/16" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.empleados.EditWindowController">
+<Label text="Edit Info"/>
+<TextField fx:id="idField" promptText="ID"/>
+<TextField fx:id="stateField" promptText="State"/>
+<TextField fx:id="clientInfoField" promptText="Client Info"/>
+<Button text="Save" onAction="#handleSave"/>
+<Button text="Cancel" onAction="#handleCancel"/>
+</VBox>
